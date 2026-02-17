@@ -1,0 +1,171 @@
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 15px 10%;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo Styles */
+.orangeText { color: #a1781e; font-weight: bold; font-size: 24px; }
+.yellowText { color: #FFB30E; font-weight: bold; font-size: 24px; }
+
+.deliveryInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.deliverTo { color: #757575; }
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pinIcon { color: #FFB30E; }
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.searchBtn, .loginBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #424242;
+}
+
+.loginBtn {
+  background: #FFFFFF;
+  padding: 8px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(255, 179, 14, 0.2);
+  color: #FFB30E;
+}
+
+/* Hero Section */
+.hero {
+  background: #FFB30E;
+  padding: 80px 10%;
+  min-height: 400px;
+  color: white;
+}
+
+.heroContent h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.searchCard {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 30px;
+  width: fit-content;
+  color: #333;
+}
+
+.tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.tabActive {
+  background: #FFF0ED;
+  color: #F17228;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: #757575;
+  font-weight: bold;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.inputGroup input {
+  padding: 12px;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  width: 300px;
+  background: #F5F5F5;
+}
+
+.findFoodBtn {
+  background: #F17228;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* ... (ваши предыдущие стили для container, header, navContent остаются) ... */
+
+/* Стили для логотипа в хедере */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  height: 40px; /* Фиксированная высота для стабильности хедера */
+}
+
+.logoImage {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Изменения в Hero для картинки справа */
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroText {
+  flex: 1;
+}
+
+.heroImageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heroImage {
+  max-width: 500px; /* Размер тарелки как на скриншоте */
+  height: auto;
+}
+
+/* ... (остальные стили кнопок и карточек поиска) ... */
